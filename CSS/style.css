@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+}
+
+header h1 {
+    color: blue;
+}
+
+header h4{
+    margin-top: 32px;
+    color: black;
+}
+
+header p {
+    margin-top: -10px;
+    font-size: small;
+    color: blue;
+}
+
+.InputSection {
+    display: flex;
+    flex-direction: column;
+}
+
+#sisi {
+    margin-top: 10px;
+    outline: none;
+    border-radius: 16px;
+    padding: 10px;
+}
+
+#sisi:focus{
+    border: solid 280274;
+}
+
+button {
+    background-color: blue;
+    color: whitesmoke;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: brown;
+    transform: translateY(5px);
+}
